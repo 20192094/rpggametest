@@ -117,4 +117,22 @@ public class Player : MonoBehaviour
         }
         angle.transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0);
     }
+
+    [SerializeField]
+    private Inventory theInventory;
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("CanBePickedUp"))
+        {
+            Item.Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
+
+            if (hitObject != null)
+            {
+                //Debug.Log(hitObject.transform.GetComponent<Consumable>().item.itemName + " È¹µæ Çß½À´Ï´Ù.");
+                theInventory.AcquireItem(hitObject.transform.GetComponent<Consumable>().item);
+                collision.gameObject.SetActive(false);
+            }
+        }
+    }
 }
