@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2c50f6ab527b58d4d9e36bbd3333092f
+guid: 3be42691e62d0ec41a103933482c9395
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hearts-and-coins32x32_0
+      name: slot_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 32
-        height: 32
+        x: 11
+        y: 148
+        width: 26
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0b851e840f7d314c8952615ea191ce9
-      internalID: 604796297
+      spriteID: 68917c30735142e4196580cd7331a2ba
+      internalID: -1016164589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hearts-and-coins32x32_1
+      name: slot_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
+        x: 59
+        y: 150
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b02fc8d550804b04381a003e17196597
-      internalID: 747122172
+      spriteID: 714a021c597d9264b9d93bba6b19495f
+      internalID: 977964975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hearts-and-coins32x32_2
+      name: slot_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
+        x: 107
+        y: 150
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 442e24241acd6834687cc0cd144c32f1
-      internalID: -1540555990
+      spriteID: 25fec9de61fdb7243b4954aee840922a
+      internalID: 1976821437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hearts-and-coins32x32_3
+      name: slot_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
+        x: 11
+        y: 100
+        width: 26
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b460684c86cd18247a3f063fdb0e9423
-      internalID: -385830255
+      spriteID: ed5d7c8e0d4685742aeffbdad29d26ed
+      internalID: -284518111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hearts-and-coins32x32_4
+      name: slot_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
+        x: 59
+        y: 102
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee3f34542513ba74db07e1e94d407d7f
-      internalID: -1074554527
+      spriteID: 9dab787a5cc6fa24aa34a8a117a15ec0
+      internalID: -1843100013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hearts-and-coins32x32_5
+      name: slot_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
+        x: 107
+        y: 102
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ecdba41651859f47a414cd5e093fddd
-      internalID: 1191531790
+      spriteID: 047238897b55f9c4db5ed09bb80d26ae
+      internalID: -157853259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hearts-and-coins32x32_6
+      name: slot_6
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
+        x: 11
+        y: 52
+        width: 26
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b4d8c7fab86bb64ba0110659684b45a
-      internalID: -943935456
+      spriteID: 29596a8e2f86f8945b580ecf53de25cb
+      internalID: -1826948580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hearts-and-coins32x32_7
+      name: slot_7
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
+        x: 59
+        y: 54
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5158ba2769592a14ba3f8946046a9bb1
-      internalID: 1300005104
+      spriteID: 98cb9e013d2b69642b25fdaaf0e200de
+      internalID: 188830755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hearts-and-coins32x32_8
+      name: slot_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
+        x: 107
+        y: 54
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5559742a8c637b84d92decd3d9feea1d
-      internalID: -912228891
+      spriteID: 0d785d824b068d04186c2c888e68dec7
+      internalID: 95119161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hearts-and-coins32x32_9
+      name: slot_9
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
+        x: 11
+        y: 4
+        width: 26
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a40e2e77ab7de24f8e5f4623c407da7
-      internalID: -687619616
+      spriteID: c7d124f75e277b54e932e8a2f76f6edd
+      internalID: 1849271280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hearts-and-coins32x32_10
+      name: slot_10
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
+        x: 59
+        y: 6
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 642b1654f3bc94141ab67f7bf72ad603
-      internalID: 505689939
+      spriteID: ad03104691ca70e4785553f98fad6fe8
+      internalID: -1848195568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hearts-and-coins32x32_11
+      name: slot_11
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
+        x: 107
+        y: 6
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,8 +355,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba354d01e71a4c143b628d8246f88dd0
-      internalID: 170077234
+      spriteID: 1eb1092491355934b9ae5619094b76c4
+      internalID: -1398855709
       vertices: []
       indices: 
       edges: []
@@ -372,18 +372,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      hearts-and-coins32x32_0: 604796297
-      hearts-and-coins32x32_1: 747122172
-      hearts-and-coins32x32_10: 505689939
-      hearts-and-coins32x32_11: 170077234
-      hearts-and-coins32x32_2: -1540555990
-      hearts-and-coins32x32_3: -385830255
-      hearts-and-coins32x32_4: -1074554527
-      hearts-and-coins32x32_5: 1191531790
-      hearts-and-coins32x32_6: -943935456
-      hearts-and-coins32x32_7: 1300005104
-      hearts-and-coins32x32_8: -912228891
-      hearts-and-coins32x32_9: -687619616
+      slot_0: -1016164589
+      slot_1: 977964975
+      slot_10: -1848195568
+      slot_11: -1398855709
+      slot_2: 1976821437
+      slot_3: -284518111
+      slot_4: -1843100013
+      slot_5: -157853259
+      slot_6: -1826948580
+      slot_7: 188830755
+      slot_8: 95119161
+      slot_9: 1849271280
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
