@@ -1,4 +1,4 @@
-Ôªøusing System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -54,7 +54,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            Debug.Log("Î¨¥Í∏∞1Î≤à");
+            Debug.Log("π´±‚1π¯");
             weapons[0].gameObject.SetActive(true);
             weapons[1].gameObject.SetActive(false);
             weapons[2].gameObject.SetActive(false);
@@ -63,7 +63,7 @@ public class Player : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            Debug.Log("Î¨¥Í∏∞2Î≤à");
+            Debug.Log("π´±‚2π¯");
             weapons[1].gameObject.SetActive(true);
             weapons[0].gameObject.SetActive(false);
             weapons[2].gameObject.SetActive(false);
@@ -72,7 +72,7 @@ public class Player : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            Debug.Log("Î¨¥Í∏∞3Î≤à");
+            Debug.Log("π´±‚3π¯");
             weapons[2].gameObject.SetActive(true);
             weapons[0].gameObject.SetActive(false);
             weapons[1].gameObject.SetActive(false);
@@ -81,7 +81,7 @@ public class Player : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha4))
         {
-            Debug.Log("Î¨¥Í∏∞4Î≤à");
+            Debug.Log("π´±‚4π¯");
             weapons[3].gameObject.SetActive(true);
             weapons[0].gameObject.SetActive(false);
             weapons[1].gameObject.SetActive(false);
@@ -116,17 +116,5 @@ public class Player : MonoBehaviour
             yield return new WaitForSeconds(0.002f);
         }
         angle.transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0);
-    }
-    private void OnTriggerEnter2D(Collider2D col)
-    {
-        if(col.tag == "Ranged Weapon(Monster)")
-        {
-            Debug.Log("ÌîåÎ†àÏù¥Ïñ¥ ÌîºÍ≤©(ÏõêÍ±∞Î¶¨)");
-            Destroy(col.gameObject);
-        }
-        else if(col.tag == "Melee Weapon(Monster)")
-        {
-            Debug.Log("ÌîåÎ†àÏù¥Ïñ¥ ÌîºÍ≤©(Í∑ºÍ±∞Î¶¨)");
-        }
     }
 }
