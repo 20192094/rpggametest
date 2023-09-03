@@ -54,7 +54,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            Debug.Log("¹«±â1¹ø");
+            Debug.Log("å…¬æ‰1é”…");
             weapons[0].gameObject.SetActive(true);
             weapons[1].gameObject.SetActive(false);
             weapons[2].gameObject.SetActive(false);
@@ -63,7 +63,7 @@ public class Player : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            Debug.Log("¹«±â2¹ø");
+            Debug.Log("å…¬æ‰2é”…");
             weapons[1].gameObject.SetActive(true);
             weapons[0].gameObject.SetActive(false);
             weapons[2].gameObject.SetActive(false);
@@ -72,7 +72,7 @@ public class Player : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            Debug.Log("¹«±â3¹ø");
+            Debug.Log("å…¬æ‰3é”…");
             weapons[2].gameObject.SetActive(true);
             weapons[0].gameObject.SetActive(false);
             weapons[1].gameObject.SetActive(false);
@@ -81,7 +81,7 @@ public class Player : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha4))
         {
-            Debug.Log("¹«±â4¹ø");
+            Debug.Log("å…¬æ‰4é”…");
             weapons[3].gameObject.SetActive(true);
             weapons[0].gameObject.SetActive(false);
             weapons[1].gameObject.SetActive(false);
@@ -116,5 +116,23 @@ public class Player : MonoBehaviour
             yield return new WaitForSeconds(0.002f);
         }
         angle.transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0);
+    }
+
+    [SerializeField]
+    private Inventory theInventory;
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("CanBePickedUp"))
+        {
+            Item.Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
+
+            if (hitObject != null)
+            {
+                //Debug.Log(hitObject.transform.GetComponent<Consumable>().item.itemName + " è£™å« æ²åš¼èªä¿ƒ.");
+                theInventory.AcquireItem(hitObject.transform.GetComponent<Consumable>().item);
+                collision.gameObject.SetActive(false);
+            }
+        }
     }
 }

@@ -584,6 +584,7 @@ MonoBehaviour:
   weapons: []
   weaponSpawnPos: {fileID: 1552663874}
   attackCoolDown: 0.5
+  theInventory: {fileID: 0}
 --- !u!70 &418332290
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
