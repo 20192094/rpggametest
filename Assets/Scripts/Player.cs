@@ -54,7 +54,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            Debug.Log("¹«±â1¹ø");
+            Debug.Log("å…¬æ‰1é”…");
             weapons[0].gameObject.SetActive(true);
             weapons[1].gameObject.SetActive(false);
             weapons[2].gameObject.SetActive(false);
@@ -63,7 +63,7 @@ public class Player : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            Debug.Log("¹«±â2¹ø");
+            Debug.Log("å…¬æ‰2é”…");
             weapons[1].gameObject.SetActive(true);
             weapons[0].gameObject.SetActive(false);
             weapons[2].gameObject.SetActive(false);
@@ -72,7 +72,7 @@ public class Player : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            Debug.Log("¹«±â3¹ø");
+            Debug.Log("å…¬æ‰3é”…");
             weapons[2].gameObject.SetActive(true);
             weapons[0].gameObject.SetActive(false);
             weapons[1].gameObject.SetActive(false);
@@ -81,7 +81,7 @@ public class Player : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha4))
         {
-            Debug.Log("¹«±â4¹ø");
+            Debug.Log("å…¬æ‰4é”…");
             weapons[3].gameObject.SetActive(true);
             weapons[0].gameObject.SetActive(false);
             weapons[1].gameObject.SetActive(false);
@@ -129,7 +129,7 @@ public class Player : MonoBehaviour
 
             if (hitObject != null)
             {
-                //Debug.Log(hitObject.transform.GetComponent<Consumable>().item.itemName + " È¹µæ Çß½À´Ï´Ù.");
+                //Debug.Log(hitObject.transform.GetComponent<Consumable>().item.itemName + " è£™å« æ²åš¼èªä¿ƒ.");
                 theInventory.AcquireItem(hitObject.transform.GetComponent<Consumable>().item);
                 collision.gameObject.SetActive(false);
             }
